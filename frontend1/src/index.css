@@ -1,0 +1,75 @@
+body {
+  background-image: linear-gradient(white, lightskyblue);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+.text-center {
+  grid-area: footer;
+  background-color: #203040;;
+  color:white;
+  font-weight: bold;
+}
+
+.text_warning {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+}
+
+
+.btn-primary {
+  background-color:lightgoldenrodyellow;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+}
+
+.rating span{
+  color:mediumvioletred;
+}
+
+.products{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px darkslateblue solid;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.productContent {
+  padding: 1rem;
+}
+
+.image-indi-product{
+  max-width: 100%;
+}
+
+.img-cart {
+  height: 100px;
+}
+
+.price-cart{
+  font-weight: bold;
+  font-size: 25px;
+}
