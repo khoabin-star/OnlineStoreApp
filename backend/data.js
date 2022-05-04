@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id:'1',
       name: "Apple Watch SE",
       slug: "apple-watch-se",
       category: "Watch",
@@ -13,6 +14,7 @@ const data = {
       image: "/images/pic1.jpg"
     },
     {
+      _id:'2',
       name: "Apple Airpod Pro",
       slug: "apple-airpod-pro",
       category: "Airpod",
@@ -25,6 +27,7 @@ const data = {
       image: "/images/pic2.jpg"
     },
     {
+      _id:'3',
       name: "2021 Apple Macbook Pro",
       slug: "2021-apple-macbook-pro",
       category: "Laptop",
@@ -37,6 +40,7 @@ const data = {
       image: "/images/pic3.jpg" 
     },
     {
+      _id:'4',
       name: "2022 Ipad Air",
       slug: "2022-ipad-air",
       category: "Ipad",
