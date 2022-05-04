@@ -8,7 +8,8 @@ import Container from "react-bootstrap/Container";
 import { LinkContainer } from "react-router-bootstrap";
 import { useContext } from 'react';
 import { Store } from './Store';
-import CartScreen from './screens/CartScreen';
+import CartScreen from './View/CartScreen';
+import LoginManager from './View/LoginManager';
 
 function App() {
   const { state } = useContext(Store);
@@ -23,6 +24,7 @@ function App() {
             <Navbar.Brand>Online Store App</Navbar.Brand>
             </LinkContainer>
             <Nav className="justify-content-end">
+              <Link to = "/signin" className="nav-link">SIGN IN</Link>
                  <Link to="/cart" className="nav-link">
                    <img alt = "" src = "/images/logo.jpg" width = "50" height = "50"/>
                    CART
@@ -42,6 +44,7 @@ function App() {
           <Route path = "/product/:slug" element = {<ProductScreen />} />
           <Route path = "/" element = {<HomeScreen />} />
           <Route path="/cart" element={<CartScreen />} />
+          <Route path="/signin" element={<LoginManager />} />
         </Routes>
         </Container>
       </main>
